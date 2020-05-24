@@ -379,6 +379,7 @@
 
             .navbar-brand img {
                 margin-top: 15px;
+                transition: all .5s linear;
             }
 
             .site-header.has-fixed .navbar .navbar-brand img {
