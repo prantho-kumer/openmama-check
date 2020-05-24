@@ -156,7 +156,7 @@
             }
 
             .sec-heading h2::before {
-                background-color: #f4901e1e;
+                background-color: #d67f1a1e;
             }
 
             .team-photo img {
@@ -268,7 +268,8 @@
             }
 
             .feature::before {
-                background: url(../images/shape-c.svg), linear-gradient(to bottom, rgba(255, 169, 61, 0.7), #f8fbff);
+                background: url(../images/shape-c.svg),
+                    linear-gradient(to bottom, rgba(61, 60, 62, 0.1), #f8fbff);
                 background-repeat: no-repeat;
                 background-size: 100%;
             }
@@ -280,14 +281,16 @@
             }
 
             .team::before {
-                background: url(../images/shape-c.svg), linear-gradient(to bottom, rgba(255, 169, 61, 0.7), #f8fbff);
+                background: url(../images/shape-c.svg),
+                    linear-gradient(to bottom, rgba(61, 60, 62, 0.1), #f8fbff);
                 background-repeat: no-repeat;
                 background-size: 100%;
                 background-position: 50% 0;
             }
 
             .footer-area::before {
-                background: url(../images/shape-d.svg), linear-gradient(to bottom, rgba(255, 169, 61, 0.1), #f8fbff);
+                background: url(../images/shape-c.svg),
+                    linear-gradient(to bottom, rgba(61, 60, 62, 0.1), #f8fbff);
                 background-repeat: no-repeat;
                 background-size: 100%;
             }
@@ -373,7 +376,11 @@
 
             /* nav */
             .mainnav {
-                background-color: #190F03;
+                background-color: #2f3338;
+            }
+
+            .site-header.has-fixed .navbar {
+                background-color: #313135;
             }
 
 
@@ -420,9 +427,7 @@
             }
 
             /* feature */
-            .black-title {
-                color: #190F03 !important;
-            }
+
 
             /* call to action */
             .cta-header {
